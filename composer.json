@@ -1,0 +1,19 @@
+{
+    "name": "modio/modio-robot-simulator",
+    "description": "bot simulator test for mod.io",
+    "type": "project",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modio\\": "src"
+        }
+    }
+}
